@@ -50,7 +50,7 @@
     "ecstatic": "~0.8.0",
     "react": "~0.14.7",
     "react-dom": "~0.14.7",
-    "ecstatic": "~1.4.0",
+    "ecstatic": "~4.1.4",
     "snyk": "^1.21.2",
     "uglify-js": "^2.4.24",
     "watchify": "^3.2.3"
