@@ -1,6 +1,6 @@
 {
   "name": "react-floating-label",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "A material design styled floating label input using react.js",
   "main": "main.js",
   "scripts": {
@@ -12,7 +12,8 @@
     "watch-css": "catw master.css -o public/bundle.css -v",
     "watch": "npm run watch-js & npm run watch-css",
     "snyk-protect": "snyk protect",
-    "prepublish": "npm run snyk-protect"
+    "prepublish": "npm run snyk-protect",
+    "test": "node -e \"JSON.parse(require('fs').readFileSync('package.json','utf8'))\""
   },
   "repository": {
     "type": "git",
@@ -37,7 +38,7 @@
     ]
   },
   "dependencies": {
-    "classnames": "^2.2.3"
+    "classnames": "^2.5.1"
   },
   "peerDependencies": {
     "react": "~0.14.7"
@@ -47,10 +48,9 @@
     "browserify": "^12.0.0",
     "catw": "~0.0.1",
     "classnames": "^2.2.3",
-    "ecstatic": "~0.8.0",
+    "ecstatic": "~1.4.0",
     "react": "~0.14.7",
     "react-dom": "~0.14.7",
-    "ecstatic": "~1.4.0",
     "snyk": "^1.21.2",
     "uglify-js": "^2.4.24",
     "watchify": "^3.2.3"
